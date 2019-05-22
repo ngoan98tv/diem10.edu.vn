@@ -1764,7 +1764,7 @@ msgstr "Plugin này không làm việc với phiên bản WordPress hiện tại
 #. translators: %s: Update PHP page URL
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:663
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:682
-#: wp-admin/includes/update-core.php:950 wp-admin/install.php:247
+#: wp-admin/includes/update-core.php:952 wp-admin/install.php:247
 #: wp-admin/update-core.php:80 wp-admin/update-core.php:313
 #: wp-admin/upgrade.php:89
 msgid "<a href=\"%s\">Learn more about updating PHP</a>."
@@ -6312,8 +6312,8 @@ msgstr "Website của bạn tại %1$s đã gặp lỗi nghiêm trọng trong qu
 msgid "WordPress %s is also now available."
 msgstr "WordPress %s đã sẵn sàng."
 
-#: wp-admin/includes/update-core.php:927 wp-admin/includes/update-core.php:1022
-#: wp-admin/includes/update-core.php:1047
+#: wp-admin/includes/update-core.php:927 wp-admin/includes/update-core.php:1027
+#: wp-admin/includes/update-core.php:1052
 #: wp-admin/includes/class-core-upgrader.php:159
 #: wp-admin/includes/class-wp-upgrader.php:165
 msgid "The update cannot be installed because we will be unable to copy some files. This is usually due to inconsistent file permissions."
@@ -6440,7 +6440,7 @@ msgstr "Nâng Cấp Bản Dịch"
 msgid "Background updates"
 msgstr "Cập nhật nền"
 
-#: wp-admin/includes/update-core.php:1088
+#: wp-admin/includes/update-core.php:1093
 msgid "There is not enough free disk space to complete the update."
 msgstr "Dung lượng ổ cứng còn trống không đủ để hoàn thành việc nâng cấp."
 
@@ -6521,11 +6521,11 @@ msgstr "Tên đăng nhập của bạn có ký tự không phù hợp."
 msgid "Please provide a valid username."
 msgstr "Hãy nhập tên người dùng hợp lệ."
 
-#: wp-admin/includes/update-core.php:1036
+#: wp-admin/includes/update-core.php:1041
 msgid "Copying the required files&#8230;"
 msgstr "Đang sao chép các tập tin cần thiết&#8230;"
 
-#: wp-admin/includes/update-core.php:966
+#: wp-admin/includes/update-core.php:971
 msgid "Preparing to install the latest version&#8230;"
 msgstr "Chuẩn bị cài đặt phiên bản mới nhất&#8230;"
 
@@ -7234,7 +7234,7 @@ msgstr "Tương tác với công cụ tìm kiếm"
 msgid "You can also control the display of your content in RSS feeds, including the maximum number of posts to display and whether to show full text or a summary."
 msgstr "Bạn cũng có thể tùy chỉnh việc hiển thị nội dung của bạn trong các nguồn cấp tin RSS, bao gồm số lượng bài viết lớn nhất có thể hiển thị và hiển thị nội dung đầy đủ hay tóm tắt."
 
-#: wp-admin/includes/update-core.php:1351 wp-admin/update-core.php:577
+#: wp-admin/includes/update-core.php:1356 wp-admin/update-core.php:577
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%2$s\">here</a>."
 msgstr "Chào mừng tới WordPress %1$s. Bạn sẽ được chuyển đến màn hình Giới Thiệu WordPress. Nếu việc đó không xảy ra, hãy <a href=\"%2$s\">bấm vào đây</a>."
 
@@ -8060,7 +8060,7 @@ msgstr "Các bản Bảo Mật và Bảo Trì"
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Màn hình này cho phép bạn định nghĩa cấu trúc liên kết tĩnh mặc định. Bạn có thể chon từ các cài đặt thông dụng hoặc tạo một cấu trúc địa chỉ mạng tùy biến."
 
-#: wp-admin/includes/update-core.php:1352 wp-admin/update-core.php:578
+#: wp-admin/includes/update-core.php:1357 wp-admin/update-core.php:578
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Chào mừng tới WordPress %1$s. <a href=\"%2$s\">Đọc tiếp</a>."
 
@@ -10129,7 +10129,7 @@ msgstr "Cập nhật Plugins"
 msgid "Update WordPress"
 msgstr "Cập nhật WordPress"
 
-#: wp-admin/includes/update-core.php:1348
+#: wp-admin/includes/update-core.php:1353
 #: wp-admin/includes/class-wp-automatic-updater.php:379
 #: wp-admin/update-core.php:576
 msgid "WordPress updated successfully"
@@ -11383,7 +11383,7 @@ msgstr "Cập nhật tới %s"
 msgid "You are using a development version (%1$s). Cool! Please <a href=\"%2$s\">stay updated</a>."
 msgstr "Bạn đang dùng bản phát triển (%1$s). Hãy <a href=\"%2$s\">cập nhật khi có bản mới</a>."
 
-#: wp-admin/includes/update-core.php:1212
+#: wp-admin/includes/update-core.php:1217
 msgid "Upgrading database&#8230;"
 msgstr "Nâng cấp cơ sở dữ liệu&#8230;"
 
@@ -11395,15 +11395,15 @@ msgstr "Tập tin cập nhập không thể giải nén."
 msgid "Verifying the unpacked files&#8230;"
 msgstr "Đang kiểm tra các tập tin được giải nén&#8230;"
 
-#: wp-admin/includes/update-core.php:962
+#: wp-admin/includes/update-core.php:967
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "Cập nhật không thể thực hiện được bởi vì WordPress %1$s yêu cầu MySQL phiên bản %2$s hoặc mới hơn. Bạn đang sử dụng MySQL phiên bản %3$s."
 
-#: wp-admin/includes/update-core.php:960
+#: wp-admin/includes/update-core.php:965
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Cập nhật không thể thực hiện được bởi vì WordPress %1$s yêu cầu PHP phiên bản %2$s hoặc mới hơn. Bạn đang sử dụng PHP phiên bản %3$s."
 
-#: wp-admin/includes/update-core.php:958
+#: wp-admin/includes/update-core.php:963
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Cập nhật không thể thực hiện được bởi vì WordPress %1$s yêu cầu PHP phiên bản %2$s hoặc mới hơn và MySQL phiên bản %3$s hoặc mới hơn. Bạn đang sử dụng PHP phiên bản %4$s và MySQL phiên bản %5$s."
 
@@ -12359,8 +12359,8 @@ msgstr "FTP"
 msgid "Empty archive."
 msgstr "Tập tin rỗng."
 
-#: wp-admin/includes/update-core.php:1163
-#: wp-admin/includes/update-core.php:1285 wp-admin/includes/file.php:1522
+#: wp-admin/includes/update-core.php:1168
+#: wp-admin/includes/update-core.php:1290 wp-admin/includes/file.php:1522
 #: wp-admin/includes/file.php:1639 wp-admin/includes/file.php:1678
 msgid "Could not copy file."
 msgstr "Không thể sao chép tập tin."
@@ -12706,12 +12706,12 @@ msgstr "Giải nén bản cập nhật&#8230;"
 msgid "The plugin is at the latest version."
 msgstr "Plugin phiên bản mới nhất."
 
-#: wp-admin/includes/update-core.php:1123
+#: wp-admin/includes/update-core.php:1128
 #: wp-admin/includes/class-wp-upgrader.php:168
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Vô hiệu hóa chế độ bảo trì&#8230;"
 
-#: wp-admin/includes/update-core.php:1028
+#: wp-admin/includes/update-core.php:1033
 #: wp-admin/includes/class-wp-upgrader.php:167
 msgid "Enabling Maintenance mode&#8230;"
 msgstr "Bật chế độ Bảo trì&#8230;"
@@ -12720,7 +12720,7 @@ msgstr "Bật chế độ Bảo trì&#8230;"
 msgid "Incompatible Archive."
 msgstr "Gói lưu trữ không tương thích."
 
-#: wp-admin/includes/update-core.php:1291
+#: wp-admin/includes/update-core.php:1296
 #: wp-admin/includes/class-wp-upgrader.php:163 wp-admin/includes/file.php:1493
 #: wp-admin/includes/file.php:1618 wp-admin/includes/file.php:1684
 msgid "Could not create directory."
